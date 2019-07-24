@@ -1,0 +1,272 @@
+/*********************************************************************************/
+* {
+  margin: 0;
+  font-family: "microsoft yahei", "Heiti SC", 'Open Sans', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: auto !important;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  font-family: "microsoft yahei", "Heiti SC", 'Open Sans', sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: #151b1e;
+  background-color: #FFF;
+  padding: 0px !important;
+}
+
+p {
+  margin: 1rem 0;
+  line-height: 1.6rem;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* table{
+  width:100% !important;
+  border:1px solid#EBEEF5
+}
+table td { border:1px solid#EBEEF5; } */
+#md-input{
+  margin-bottom: 10px;
+  margin-top: 80px;
+}
+.swal2-title{
+  font-size:1.5em !important;
+  font-weight:600 !important;
+  letter-spacing:4px;
+}
+.buttonspace{
+  width: 10px;
+}
+
+/* HHY新增 */
+.modalinput {
+  border: 1px solid #ccc;
+  padding: 3px 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.modalhead {
+  font-weight: bold;
+  font-size: 17px;
+}
+.modalcontainer {
+  padding: 5px 20px;
+  text-align: left;
+}
+.modaltitle {
+  font-weight: bold;
+  color: #5c5f61;
+  font-size: 14px;
+}
+.modalcontent {
+  color: #798185;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.alertconfirm {
+  color: #5c5f61;
+  font-size: 14px;
+  font-weight: bold;
+}
+.return {
+  text-align: right;
+  padding-right: 20px;
+}
+
+/* 注册 */
+.input-white{
+  background-color: white !important;;
+}
+.input-80{
+  width:80%
+}
+.code-svg{
+  overflow: hidden;
+  margin:0px;
+  margin-top:10px;
+  width:100px;
+  height:40px;
+  cursor: pointer;
+}
+.code-font{
+  overflow: hidden;
+  margin:0px;
+  width:100px;
+  height:40px;
+  color:blue;
+  font-size:16px;
+  cursor: pointer;
+}
+.code-font-gray{
+  overflow: hidden;
+  margin:0px;
+  width:100px;
+  height:40px;
+  color:gray;
+  font-size:16px;
+  cursor: pointer;
+}
+
+
+/* add by neo */
+.md-ripple{
+  padding: 3px !important;
+  width: 100% !important;
+}
+.md-button{
+  min-width: 0px !important;
+}
+.table-button{
+  width: 38px !important;
+}
+.form-btn {
+  text-align: center;
+  padding: 1rem 0;
+}
+.form-margin{
+  margin: 10px 0;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.sidebar .user .photo img{
+  width: 70% !important;
+}
+
+.money-sum{
+  color:gray;
+  display: inline;
+  font-size:16px;
+  font-weight:600;
+  text-align: center;
+  line-height: 40px;
+}
+
+.order-money{
+  padding-right: 2em;
+  padding-left: 1em;
+  color:gray;
+  display: inline;
+  font-size:14px;
+  font-weight:500;
+  line-height: 40px;
+}
+
+.sidebar .user, .off-canvas-sidebar .user{
+  padding-bottom: 0px !important;
+}
+.sidebar .user .user-info .nav, .off-canvas-sidebar .user .user-info .nav{
+  padding-top: 10px !important;
+}
+.sidebar .user .photo, .off-canvas-sidebar .user .photo{
+  -webkit-box-shadow: none !important;
+}
+.md-menu-content.md-select-menu {
+  z-index: 9999 !important;
+  width: 100% !important;
+}
+.md-datepicker-today, .md-datepicker-today:hover, .md-datepicker-today:focus, .md-datepicker-selected, .md-datepicker-selected:hover, .md-datepicker-selected:focus{
+  background-color: red !important;
+}
+.element.style{
+  transform: translate3d(0px, 0px, 0px) !important;
+}
+
+/* 时间组件线管样式 */
+.el-date-editor .el-input__inner{
+  border-style:none none double none; 
+  border-color: #d2d2d2;
+  border-radius: 0px;
+  margin-top: 9px;
+  width: 100%
+}
+.el-date-editor .el-input__inner:hover{
+  border-style:none none solid none; 
+  border-color: #9c27b0;
+  border-width: 2px;
+  border-radius: 0px;
+}
+.el-date-editor .el-input__inner:focus{
+  border-color: #9c27b0;
+  border-width: 2px;
+}
+.el-date-editor{
+ width:100% !important;
+}
+.el-date-table td.current:not(.disabled) span{
+  background-color: #9c27b0 !important;
+}
+.el-date-table td.today span{
+  color:#9c27b0 !important;
+}
+.el-input__prefix{
+  top:4px !important;
+  left: 2px !important;
+}
+
+/* 按钮抖动效果 */
+.md-button:hover {
+  cursor: pointer;
+  animation: 同步MT4组 0.5s;
+}
+
+@keyframes 同步MT4组 {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+
+/* 图片预览相关 */
+.images.pictrue-to-big{
+  width:50px;
+  display: inline-block;
+  cursor: zoom-out；
+}
+
+
+/* 左侧菜单宽度调整 */
+.sidebar .sidebar-wrapper, .off-canvas-sidebar .sidebar-wrapper {
+  width: 210px !important;
+}
+.sidebar, .off-canvas-sidebar {
+  width: 210px !important;
+}
+
+/* .main-panel {
+  width: calc(100% - 210px) !important;
+} */
+.md-layout{
+  margin-bottom:20px;
+}
+.md-card.md-card-actions{
+  border-top: 0px;
+}
+.search_margin{
+  margin-right:15px;
+}
